@@ -2,7 +2,7 @@ import java.util.*;
 
 public class ArrayListService {
     //ArrayList CRUD
-    private List<String> arrList = new ArrayList<String>();
+    private List<String> arrList = new ArrayList<>();
 
     public void addItem(String[] items){
         arrList.addAll(Arrays.asList(items));
